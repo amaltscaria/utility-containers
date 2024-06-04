@@ -1,0 +1,8 @@
+Requirement for utility containers
+
+Normally when building an image we copy the package.json 
+But how do we create the package.json
+We can create it manually but cumbersome
+so we use utility containers 
+it does not run our application but executes commands that we want
+so that we dont have to install for eg nodejs on our machine to run that command
